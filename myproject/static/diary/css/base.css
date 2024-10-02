@@ -1,0 +1,104 @@
+body {
+    max-width: 700px;
+    min-height: 300px;
+    margin: 1.5% auto;
+    background: linear-gradient(to bottom, #4315ed, #5d2e8c); /* ダークパープルのグラデーション */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0; /* テキスト色を明るい灰色に */
+}
+
+h1 {    
+    font-size: 3rem;
+    position: relative;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #4315ed; /* ダークパープル系の背景色 */
+    border-radius: 10px;
+    color: #b9e728; /* タイトルはサイバーグリーンに */
+    text-shadow: 0 0 10px #b9e728; /* ネオン風のテキスト影 */
+}
+
+h1 span {
+    font-size: 1.8rem;
+}
+
+a {
+    color: #b9e728; /* サイバーグリーン */
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #fff; /* ホバー時に白に変化 */
+    border-bottom: 2px solid #b9e728; /* アンダーラインもサイバーグリーン */
+}
+
+.button {
+    background-color: #b9e728; /* サイバーグリーン */
+    color: #4315ed; /* ボタンのテキストはダークパープル */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(185, 231, 40, 0.7); /* ネオン風の光 */
+}
+
+.button:hover {
+    background-color: #d4ff40; /* ホバー時にさらに明るく */
+    box-shadow: 0 0 20px rgba(185, 231, 40, 1), 0 0 30px rgba(185, 231, 40, 0.7); /* 発光感アップ */
+    transform: scale(1.05);
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #4315ed; /* ダークなパープル系背景 */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #b9e728; /* 入力欄の枠もサイバーグリーン */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #4315ed; /* 入力欄の背景色をダークに */
+    color: #fff; /* テキストを白に */
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="file"]:focus,
+textarea:focus {
+    border-color: #d4ff40; /* フォーカス時に明るいグリーンに */
+    outline: none;
+}
+
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.logout-form {
+    margin-top: 20px;
+}
